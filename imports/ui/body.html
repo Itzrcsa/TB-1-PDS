@@ -1,13 +1,29 @@
-
-
 <body>
 
   <div class="container">
 
     <header>
 
-      <h1>Todo List</h1>
+      <h1>Loguin_PDS - Mensagens({{incompleteCount}})</h1>
 
+      <label class="hide-completed">
+
+        <input type="checkbox" />
+
+        Ocultar mensagens
+
+      </label>
+
+      {{> loginButtons}}
+
+      {{#if currentUser}}
+
+      <form class="new-task">
+
+        <input type="text" name="text" placeholder="Qual a boa meu bom?" />
+
+      </form>
+      {{/if}}
     </header>
 
 
@@ -25,11 +41,3 @@
   </div>
 
 </body>
-
-
-
-<template name="task">
-
-  <li>{{text}}</li>
-
-</template>
