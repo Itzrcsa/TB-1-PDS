@@ -6,9 +6,9 @@ body {
 
   font-family: sans-serif;
 
-  background-color: #315481;
+  background-color: #000000;
 
-  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+  background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-champion-update-kayle-morgana/pt_BR/c4e75bae5aad81eb1db68c38b64af56007aecf23/assets/downloads/wallpapers/Wallpaper_Bewitching_Morgana.jpg");
 
   background-attachment: fixed;
 
@@ -44,7 +44,7 @@ body {
 
   margin: 0 auto;
 
-  min-height: 100%;
+  min-height: 1%;
 
   background: white;
 
