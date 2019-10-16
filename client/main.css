@@ -38,15 +38,18 @@ body {
 
 
 
+
 .container {
 
-  max-width: 600px;
+  max-width:750px;
 
   margin: 0 auto;
 
-  min-height: 1%;
+  min-height: 10%;
 
-  background: white;
+  background-image: inear-gradient(to left, rgba(255, 0, 0, 10);,rgba(0, 0, 0, 10););
+position: static;
+top: 1000px;
 
 }
 
@@ -54,13 +57,25 @@ body {
 
 header {
 
-  background: #d2edf4;
+  background: ;
 
-  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+  background-image: linear-gradient(to left, rgba(255, 0, 0, 10);,rgba(0, 0, 0, 10););
 
   padding: 20px 15px 15px 15px;
 
-  position: relative;
+  position: absolute;
+
+  top: 0;
+
+  bottom: 0;
+
+  left: 0;
+
+  right: 10;
+
+}
+hand{
+
 
 }
 
@@ -80,7 +95,7 @@ h1 {
 
   margin: 0;
 
-  margin-bottom: 10px;
+  margin-bottom: 800px;
 
   display: inline-block;
 
@@ -90,13 +105,15 @@ h1 {
 
 
 
-form {
+form {]
+  background: black;
 
-  margin-top: 10px;
+  margin-top: 30px;
 
-  margin-bottom: -10px;
+  margin-bottom: 100px;
 
-  position: relative;
+  position: absolute;
+
 
 }
 
