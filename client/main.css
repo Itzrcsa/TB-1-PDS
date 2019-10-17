@@ -41,7 +41,7 @@ body {
 
 .container {
 
-  max-width:750px;
+  max-width:480px;
 
   margin: 0 auto;
 
@@ -153,7 +153,8 @@ ul {
 
   padding: 0;
 
-  background: white;
+  background: linear-gradient(to left, rgba(255, 0, 0, 10);,rgba(0, 0, 0, 10););
+ margin-top: 180px;
 
 }
 

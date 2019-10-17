@@ -16,6 +16,8 @@
 
         Ocultar mensagens
 
+        <p></p>
+
       </label>
 
       {{> loginButtons}}
@@ -36,13 +38,18 @@
 
 
 
-    <ul style="color:black">
+    <ul style="color:white">
 
       {{#each tasks}}
 
         {{> task}}
 
       {{/each}}
+      <p></p>
+
+        {{#if currentUser}}
+<img src="https://i.pinimg.com/originals/a1/bd/a7/a1bda7df8ad6e3abf25ea2417d28fb7c.gif"/>
+          {{/if}}
 
     </ul>
 
